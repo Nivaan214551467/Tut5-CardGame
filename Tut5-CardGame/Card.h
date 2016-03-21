@@ -1,4 +1,8 @@
 #pragma once
+#include <string>
+
+using namespace std;
+
 class Card
 {
 private:
@@ -6,6 +10,7 @@ private:
 	string colour;
 
 public:
+	Card();
 	Card(int,string);
 	string getColour();
 	int getNumber();

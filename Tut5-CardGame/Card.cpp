@@ -4,6 +4,10 @@
 
 using namespace std;
 
+Card::Card()
+{
+
+}
 
 Card::Card(int num, string col)
 {
